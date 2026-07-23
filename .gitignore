@@ -1,0 +1,32 @@
+# env
+.env
+.env.*
+!.env.example
+
+# credentials & session state (live under $CANVAS_CHECK_HOME in production,
+# but never allow them into the repo either)
+.telegram_creds
+.canvas_creds
+.duo_totp
+.anthropic_key
+.exclude_ids
+canvas_session.txt
+state.json
+manifest.json
+completed/
+chrome-profile/
+canvas-export/
+
+# logs & debug dumps
+*.log
+duo_debug_*.html
+probe_*.html
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
