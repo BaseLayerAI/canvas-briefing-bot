@@ -1,5 +1,5 @@
 # Runtime dependencies for the canvas-check venv.
-playwright>=1.40      # headless Chrome: auto_login.py, duo_probe.py, md_to_pdf.py render stage
+playwright>=1.61.0      # headless Chrome: auto_login.py, duo_probe.py, md_to_pdf.py render stage
 pyotp>=2.10.0            # HOTP passcodes: duo_hotp.py
 cryptography>=49.0.0      # RSA keypair for Duo token enrollment: duo_enroll.py
 markdown>=3.10.2         # md -> HTML stage of md_to_pdf.py (graceful fallback if absent)
