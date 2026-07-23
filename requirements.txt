@@ -2,4 +2,4 @@
 playwright>=1.40      # headless Chrome: auto_login.py, duo_probe.py, md_to_pdf.py render stage
 pyotp>=2.9            # HOTP passcodes: duo_hotp.py
 cryptography>=42      # RSA keypair for Duo token enrollment: duo_enroll.py
-markdown>=3.5         # md -> HTML stage of md_to_pdf.py (graceful fallback if absent)
+markdown>=3.10.2         # md -> HTML stage of md_to_pdf.py (graceful fallback if absent)
